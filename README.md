@@ -1,1 +1,1 @@
-stack && queue
+stacks && queue
