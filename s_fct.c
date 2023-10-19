@@ -59,7 +59,7 @@ void del_tp(stack_t **t_s, unsigned int number_l_opc)
 	if (*t_s != NULL)
 		(*t_s)->prev = NULL;
 	free(garage);
-    garage = NULL;
+	garage = NULL;
 }
 
 /**

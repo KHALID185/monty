@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdio.h>
 
 /**
  * f_open - open the file
@@ -52,7 +53,7 @@ int sep_l(char *bfffr, int n_n_le, int rndm)
 	const char *n_lINe = "\n ";
 
 	if (bfffr == NULL)
-		err(4);
+		print_err_1(4);
 
 	code_opert = strtok(bfffr, n_lINe);
 	if (code_opert == NULL)
@@ -119,7 +120,7 @@ void fct_s(char *code_opert, char *stckge, int n_l, int rndm)
 
 /**
  * fct_c - the function call
- * @fct_ptr: pointer to this function 
+ * @fct_ptr: pointer to this function
  * @strg_oper: a string
  * @insd: string
  * @n_l: number of line

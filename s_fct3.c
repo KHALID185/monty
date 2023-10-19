@@ -78,11 +78,11 @@ void MoD(stack_t **t_ofstack, unsigned int num_l)
 
 	if (t_ofstack == NULL || *t_ofstack == NULL || (*t_ofstack)->next == NULL)
 
-		more_err(8, num_l, "mod");
+		print_err_2(8, num_l, "mod");
 
 
 	if ((*t_ofstack)->n == 0)
-		more_err(9, num_l);
+		print_err_2(9, num_l);
 	(*t_ofstack) = (*t_ofstack)->next;
 	sum = (*t_ofstack)->n % (*t_ofstack)->prev->n;
 	(*t_ofstack)->n = sum;
