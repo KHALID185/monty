@@ -1,4 +1,4 @@
-Read the two digits from stdin, multiply them, and print the result
+read the two digits from stdin multiply them and print the result
 >, >, <<
 
 +++++ +
