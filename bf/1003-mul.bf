@@ -1,19 +1,19 @@
-/*Read the two digits from stdin, multiply them, and print the result, followed by a new line*/
+d from stdin
 >, >, <<
-
+convert atoi
 +++++ +
 [
  >----- ---
  >----- ---
  <<-
 ]
-
+multiply two integers
 >[
  >[>+>+<<-]
  >[<+>-]
  <<-
 ]
-
+separate two digits inputed
 >[-]>+> >+++++ +++++<
 [
  - >- [>>>]+++++ +++++<<+
@@ -21,13 +21,13 @@
 ]
 <-
 <+++++ +++++>>>[-<<<->>>]<<<
-
+convert itoa
 <+++++ +
 [
  >+++++ +++>
  [+++++ +++>]
  <[<]>-
 ]
-
+print with newline
 >>[.<<]<[<<]>>.
 >>,. 
